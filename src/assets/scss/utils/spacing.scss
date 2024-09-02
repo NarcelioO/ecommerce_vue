@@ -7,6 +7,15 @@ $marginBottom:(10,20,30,50);
         }
     }
     
+$marginTop:(10,20,30,50);
+@each $mt in $marginTop
+   {
+     .mt-#{$mt}
+        {
+            margin-top: #{$mt}px;
+        }
+    }
+    
 
 //paddings
 $paddingTop:(80);
