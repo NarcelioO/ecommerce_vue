@@ -1,7 +1,6 @@
 .container
   {  
     max-width: 90vw;
-    padding: 0 20px;
     margin:0 auto;   
 } 
 
@@ -24,8 +23,8 @@
   {  
     .col_#{$i}
             {
-                min-width: (100% / 12) * $i;
-                max-width: (100% / 12) * $i;
+                min-width: calc(100% / 12) * $i;
+                max-width: calc(100% / 12) * $i;
             }
 }
     
